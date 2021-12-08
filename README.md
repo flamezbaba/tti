@@ -1,4 +1,14 @@
-# tti3
+# tti3 - Demo Project
+## Investment Platform Powered With SmartContract
+
+## Tools and Library Used
+```
+VueJS
+FireBase
+Solidity
+Truffle
+Web3
+```
 
 ## Project setup
 ```

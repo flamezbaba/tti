@@ -1,17 +1,64 @@
 <!DOCTYPE html>
-<html lang="">
+<html lang="en">
   <head>
+	<!-- <base href="http://localhost:8080/"> -->
+	<base href="<%= BASE_URL %>">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title><%= htmlWebpackPlugin.options.title %></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="<%= BASE_URL %>/images/favicon.logo">
+
+
+    <title>Yoshimasa Token Investment</title>
+    
+	<!-- Vendors Style-->
+	<link rel="stylesheet" href="css/vendors_css.css">
+	  
+	<!-- Style-->  
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/skin_color.css">
+     
   </head>
-  <body>
-    <noscript>
-      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
-  </body>
+
+<body class="hold-transition dark-skin sidebar-mini theme-warning fixed">
+  <div id="app"></div>
+  <!-- Vendor JS -->
+	<script type="application/javascript"  defer src="js/vendors.min.js"></script>
+	<!-- <script type="application/javascript"  defer src="js/pages/chat-popup.js"></script> -->
+    <script type="application/javascript"  defer src="../assets/icons/feather-icons/feather.min.js"></script>
+	
+	<!-- <script type="application/javascript"  defer src="../assets/vendor_components/Flot/jquery.flot.js"></script>
+	<script type="application/javascript"  defer src="../assets/vendor_components/Flot/jquery.flot.resize.js"></script>
+	<script type="application/javascript"  defer src="../assets/vendor_components/Flot/jquery.flot.pie.js"></script>
+	<script type="application/javascript"  defer src="../assets/vendor_components/Flot/jquery.flot.categories.js"></script>
+	<script type="application/javascript"  defer src="http://www.amcharts.com/lib/3/amcharts.js" ></script>
+	<script type="application/javascript"  defer src="http://www.amcharts.com/lib/3/gauge.js" ></script>
+	<script type="application/javascript"  defer src="http://www.amcharts.com/lib/3/serial.js" ></script>
+	<script type="application/javascript"  defer src="http://www.amcharts.com/lib/3/amstock.js" ></script>
+	<script type="application/javascript"  defer src="http://www.amcharts.com/lib/3/pie.js" ></script>
+	<script type="application/javascript"  defer src="https://www.amcharts.com/lib/3/plugins/dataloader/dataloader.min.js"></script>
+	<script type="application/javascript"  defer src="http://www.amcharts.com/lib/3/plugins/animate/animate.min.js" ></script>
+	<script type="application/javascript"  defer src="http://www.amcharts.com/lib/3/plugins/export/export.min.js" ></script>
+	<script type="application/javascript"  defer src="http://www.amcharts.com/lib/3/themes/patterns.js" ></script>
+	<script type="application/javascript"  defer src="http://www.amcharts.com/lib/3/themes/light.js" ></script>	
+	<script type="application/javascript"  defer src="../assets/vendor_components/Web-Ticker-master/jquery.webticker.min.js"></script>
+	<script type="application/javascript"  defer src="../assets/vendor_components/echarts-master/dist/echarts-en.min.js"></script>
+	<script type="application/javascript"  defer src="../assets/vendor_components/echarts-liquidfill-master/dist/echarts-liquidfill.min.js"></script> -->
+    <script type="application/javascript"  defer src="../assets/vendor_components/datatable/datatables.min.js"></script>
+	<script type="application/javascript"  defer src="../assets/vendor_plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.js"></script>
+	
+	<!-- Crypto Admin App -->
+	<script type="application/javascript"  defer src="js/template.js"></script>
+	<script type="application/javascript"  defer src="js/pages/dashboard.js"></script>
+	<!-- <script type="application/javascript"  defer src="js/pages/dashboard-chart.js"></script> -->
+	<!-- <script type="text/javascript">
+		//Ajax
+		$(document).ready(function () {
+			alert("fdfdfd");
+		});
+		</script> -->
+</body>
 </html>
+
